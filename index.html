@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia Games</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #ff6b00;
+            padding-bottom: 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            color: #ff6b00;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .noticia {
+            background-color: #2a2a2a;
+            border-left: 5px solid #ff6b00;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .noticia h2 {
+            color: #ff6b00;
+            margin-bottom: 10px;
+        }
+        
+        .noticia p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .comentarios {
+            background-color: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        
+        .comentario {
+            background-color: #3a3a3a;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
+        
+        .comentario strong {
+            color: #ff6b00;
+        }
+        
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ff6b00;
+            border-radius: 3px;
+            background-color: #2a2a2a;
+            color: #fff;
+        }
+        
+        button {
+            background-color: #ff6b00;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background-color: #e55a00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎮 Notícia Games</h1>
+        <p>As melhores notícias de jogos resumidas por IA</p>
+    </header>
+    
+    <div class="container">
+        <div class="noticia">
+            <h2>Fortnite recebe nova atualização</h2>
+            <p><strong>Resumo IA:</strong> Fortnite lançou uma grande atualização com novos skins, armas e mapas. Os jogadores já podem testar as novidades no servidor de testes.</p>
+            
+            <div class="comentarios">
+                <h3>Comentários:</h3>
+                <div class="comentario">
+                    <strong>João:</strong> Que legal! Mal posso esperar!
+                </div>
+                <div class="comentario">
+                    <strong>Maria:</strong> Os novos skins estão top demais!
+                </div>
+                <textarea placeholder="Deixe seu comentário aqui..."></textarea>
+                <button>Comentar</button>
+            </div>
+        </div>
+        
+        <div class="noticia">
+            <h2>Minecraft 1.21 é anunciado</h2>
+            <p><strong>Resumo IA:</strong> A Mojang anunciou a versão 1.21 do Minecraft com novas criaturas, blocos e biomas incríveis. Lançamento previsto para junho.</p>
+            
+            <div class="comentarios">
+                <h3>Comentários:</h3>
+                <div class="comentario">
+                    <strong>Pedro:</strong> Minecraft nunca para de evoluir!
+                </div>
+                <textarea placeholder="Deixe seu comentário aqui..."></textarea>
+                <button>Comentar</button>
+            </div>
+        </div>
+    </div>
+</body>
+  </html>
